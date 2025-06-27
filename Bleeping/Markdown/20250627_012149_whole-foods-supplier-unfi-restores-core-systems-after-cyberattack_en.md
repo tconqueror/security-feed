@@ -1,0 +1,25 @@
+# Whole Foods supplier UNFI restores core systems after cyberattack
+
+![United Natural Foods](https://www.bleepstatic.com/content/hl-images/2025/06/09/UNFI_United_Natural_Foods.jpg)
+
+American grocery wholesale giant United Natural Foods (UNFI) reports that it has restored its core systems and brought online the electronic ordering and invoicing systems affected by a cyberattack.
+
+UNFI, which is also a primary distributor for Amazon's Whole Foods, [said](https://ir.unfi.com/news/press-release-details/2025/statement/default.aspx) in a Thursday update that the incident has been contained and that it's now delivering products to stores at "more normalized levels."
+
+In a separate [8-K filing](https://www.sec.gov/Archives/edgar/data/1020859/000102085925000036/unfi-20250621.htm) with the U.S. Securities and Exchange Commission, the grocery distributor said it believes the incident is also "reasonably likely" to have a material impact on its net income/(loss) and adjusted EBITDA for the year's fourth fiscal quarter of 2025.
+
+"In the weeks following the incident, the Company experienced reduced sales volume and increased operational costs as the Company worked to drive solutions-oriented results for its customers. The Company has also incurred, and expects to continue to incur, direct expenses related to the investigation and remediation of the incident," UNFI said.
+
+"The Company holds cybersecurity insurance that it currently expects will be adequate for the incident, and expects that the full claim and settlement process will extend into its 2026 fiscal year."
+
+UNFI [disclosed](https://www.bleepingcomputer.com/news/security/grocery-wholesale-giant-united-natural-foods-hit-by-cyberattack/) earlier this month that a June 5 cyberattack impacted customer orders and caused temporary disruptions to business operations after it forced it to take some systems offline. The incident was disclosed following [widespread](https://www.reddit.com/r/wholefoods/comments/1l6lfbf/anyone%5Felse%5Fnoticing%5Fsomething%5Foff%5Fwith%5Funfi%5Fthe/) [reports](https://www.reddit.com/r/wholefoods/comments/1l5gu0e/unfi%5Fissues%5Ftoday/) on [social media](https://www.reddit.com/r/wholefoods/comments/1l67fb8/unfi%5Fupdate/) that the company's systems had been down, and employees were having their shifts canceled.
+
+Since the breach was discovered, UNFI has also hired external cybersecurity experts to investigate the incident and notified relevant law enforcement authorities.
+
+UNFI has not yet disclosed the nature of the attack or whether any ransomware group has claimed responsibility for the breach. However, it told the SEC on Thursday that it "does not anticipate sending any notifications to individual consumers" since the incident "did not involve a breach of security of personal information or protected health information."
+
+The Rhode Island-based company reported $31 billion in annual revenue in August 2024\. With over 28,000 employees, more than 11,000 suppliers, and 53 distribution centers, it delivers fresh and frozen products to over 30,000 locations in the U.S. and Canada, including supermarket chains, e-commerce providers, and independent retailers.
+
+UNFI is the latest food industry company to face a data breach. In March, Sam's Club, owned by Walmart, announced it was [investigating](https://www.bleepingcomputer.com/news/security/retail-giant-sams-club-investigates-clop-ransomware-breach-claims/) a ransomware breach linked to the Clop ransomware gang. JBS Foods, the world's largest beef producer, also [paid an $11 million ransom](https://www.bleepingcomputer.com/news/security/jbs-paid-11-million-to-revil-ransomware-225m-first-demanded/) in 2021 after [REvil ransomware](https://www.bleepingcomputer.com/news/security/fbi-revil-cybergang-behind-the-jbs-ransomware-attack/) shut down production at [multiple sites worldwide](https://www.bleepingcomputer.com/news/security/food-giant-jbs-foods-shuts-down-production-after-cyberattack/).
+
+More recently, the [Scattered Spider](https://www.bleepingcomputer.com/news/security/marks-and-spencer-breach-linked-to-scattered-spider-ransomware-attack/) threat actors and the [DragonForce ransomware](https://www.bleepingcomputer.com/news/security/co-op-confirms-data-theft-after-dragonforce-ransomware-claims-attack/) operation have [targeted UK retailers](https://www.bleepingcomputer.com/tag/retail-store/), such as [Harrods](https://www.bleepingcomputer.com/news/security/harrods-the-next-uk-retailer-targeted-in-a-cyberattack/), [Co-op](https://www.bleepingcomputer.com/news/security/uk-retailer-co-op-shuts-down-some-it-systems-after-hack-attempt/), and [Marks & Spencer](https://www.bleepingcomputer.com/news/security/marks-and-spencer-confirms-a-cyberattack-as-customers-face-delayed-orders/), and are now shifting their focus to U.S. [retailers](https://www.bleepingcomputer.com/news/security/google-scattered-spider-switches-targets-to-us-retail-chains/) and [insurance companies](https://www.bleepingcomputer.com/news/security/google-warns-scattered-spider-hackers-now-target-us-insurance-companies/).
