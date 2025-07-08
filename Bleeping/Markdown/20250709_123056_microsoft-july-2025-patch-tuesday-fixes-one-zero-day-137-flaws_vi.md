@@ -1,0 +1,166 @@
+# Microsoft tháng 7 năm 2025 phát hành bản vá thứ Ba khắc phục một lỗ hổng zero-day, 137 lỗ hổng
+
+![Patch Tuesday](https://www.bleepstatic.com/content/hl-images/2024/10/08/patch_tuesday_microsoft.jpg)
+
+Hôm nay là bản vá thứ Ba tháng 7 năm 2025 của Microsoft, bao gồm các bản cập nhật bảo mật cho 137 lỗ hổng, bao gồm một lỗ hổng zero-day đã được công bố công khai trong Microsoft SQL Server.
+
+Bản vá thứ Ba này cũng khắc phục mười bốn lỗ hổng "Critical", trong đó mười lỗ hổng là lỗ hổng thực thi mã từ xa, một lỗ hổng là rò rỉ thông tin và hai lỗ hổng liên quan đến cuộc tấn công kênh bên của AMD.
+
+Số lượng lỗi trong mỗi danh mục lỗ hổng được liệt kê dưới đây:
+
+* 53 Lỗ hổng nâng cao quyền
+* 8 Lỗ hổng vượt qua tính năng bảo mật
+* 41 Lỗ hổng thực thi mã từ xa
+* 18 Lỗ hổng rò rỉ thông tin
+* 6 Lỗ hổng từ chối dịch vụ
+* 4 Lỗ hổng giả mạo
+
+Số liệu này không bao gồm bốn vấn đề Mariner và ba vấn đề Microsoft Edge đã được khắc phục trước đó trong tháng này.
+
+## Một lỗ hổng zero-day
+
+Bản vá thứ Ba của tháng này khắc phục một lỗ hổng zero-day đã được công bố công khai trong Microsoft SQL Server. Microsoft [phân loại một lỗ hổng zero-day](https://learn.microsoft.com/en-us/defender-vulnerability-management/tvm-zero-day-vulnerabilities) là bị công bố công khai hoặc bị khai thác tích cực trong khi không có bản sửa chữa chính thức nào có sẵn.
+
+Lỗ hổng zero-day được công bố công khai là:
+
+**[CVE-2025-49719](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49719) \- Lỗ hổng rò rỉ thông tin trong Microsoft SQL Server**
+
+Microsoft khắc phục một lỗi trong Microsoft SQL Server có thể cho phép một kẻ tấn công từ xa, không xác thực truy cập dữ liệu từ không gian nhớ chưa khởi tạo.
+
+"Các xác thực đầu vào không chính xác trong SQL Server cho phép một kẻ tấn công trái phép tiết lộ thông tin qua mạng", Microsoft giải thích.
+
+Các quản trị viên có thể khắc phục lỗi này bằng cách cài đặt phiên bản mới nhất của Microsoft SQL Server và cài đặt Microsoft OLE DB Driver 18 hoặc 19.
+
+Microsoft ghi nhận công phát hiện ra lỗ hổng này với Vladimir Aleksic của Microsoft và không cung cấp chi tiết về cách lỗ hổng được công bố công khai.
+
+Mặc dù chỉ có một lỗ hổng zero-day trong bản vá thứ Ba này, Microsoft đã khắc phục nhiều lỗ hổng thực thi mã từ xa đáng kể trong Microsoft Office có thể bị khai thác chỉ bằng cách mở một tài liệu được tạo đặc biệt hoặc khi được xem qua ngăn xem.
+
+Microsoft cho biết rằng các bản cập nhật bảo mật cho những lỗ hổng này hiện chưa có sẵn cho Microsoft Office LTSC cho Mac 2021 và 2024 và sẽ sớm được phát hành.
+
+Công ty cũng đã khắc phục thêm một lỗ hổng RCE quan trọng khác trong Microsoft SharePoint được theo dõi như [CVE-2025-49704](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49704) có thể bị khai thác từ xa qua Internet miễn là kẻ tấn công có tài khoản trên nền tảng này.
+
+## Các bản cập nhật gần đây từ các công ty khác
+
+Các nhà cung cấp khác đã phát hành bản cập nhật hoặc thông báo trong tháng 7 năm 2025 bao gồm:
+
+* **AMD** [đã công bố các cuộc tấn công Transient Scheduler mới](https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7029.html) dựa trên một báo cáo của Microsoft có tiêu đề "[Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks](https://www.microsoft.com/en-us/research/publication/enter-exit-page-fault-leak-testing-isolation-boundaries-for-microarchitectural-leaks/)."
+* **Cisco** [đã phát hành nhiều bản vá](https://sec.cloudapps.cisco.com/security/center/publicationListing.x) trong tháng này, bao gồm một bản sửa lỗi cho [các thông tin xác thực SSH root được mã hóa cứng](https://www.bleepingcomputer.com/news/security/cisco-removes-unified-cm-callManager-backdoor-root-account/) trong Unified CM.
+* **Fortinet** [đã phát hành các bản cập nhật bảo mật](https://www.fortiguard.com/psirt) hôm nay cho nhiều sản phẩm, bao gồm FortiOS, FortiManager, FortiSandbox, FortiIsolator và FortiProxy.
+* **Google** [đã phát hành các bản cập nhật bảo mật](https://source.android.com/docs/security/bulletin/2025-06-01) cho Google Chrome để khắc phục một [lỗ hổng zero-day đang bị khai thác theo dõi là CVE-2025-6554](https://www.bleepingcomputer.com/news/security/google-fixes-fourth-actively-exploited-chrome-zero-day-of-2025/). Google chưa phát hành bất kỳ bản vá bảo mật Android nào trong [Thông báo bảo mật Android tháng 7 năm 2025](https://source.android.com/docs/security/bulletin/2025-07-01).
+* **Grafana** đã [phát hành các bản sửa lỗi bảo mật](https://www.bleepingcomputer.com/news/security/grafana-releases-critical-security-update-for-image-renderer-plugin/) cho bốn lỗ hổng Chromium trong plugin Grafana Image Renderer và Synthetic Monitoring Agent.
+* **Ivanti** [đã phát hành các bản cập nhật bảo mật](https://www.ivanti.com/blog/july-security-update-2025) đối với các lỗ hổng trong Ivanti Connect Secure và Policy Secure, Ivanti EPMM và Ivanti EPM. Không có lỗ hổng nào trong số này được báo cáo là hoạt động bị khai thác.
+* **SAP** [đã phát hành các bản cập nhật bảo mật tháng 7](https://support.sap.com/en/my-support/knowledge-base/security-notes-news/july-2025.html) cho nhiều sản phẩm, bao gồm nâng cấp một lỗi trước đó ([CVE-2025-30012](https://www.cve.org/CVERecord?id=CVE-2025-30012)) trong SAP Supplier Relationship Management lên mức đánh giá 10/10.
+
+## Các bản cập nhật bảo mật tháng 7 năm 2025
+
+Dưới đây là danh sách hoàn chỉnh các lỗ hổng đã được giải quyết trong các bản cập nhật bản vá thứ Ba tháng 7 năm 2025.
+
+Để truy cập mô tả đầy đủ về từng lỗ hổng và hệ thống mà nó ảnh hưởng, bạn có thể xem [báo cáo đầy đủ tại đây](https://www.bleepingcomputer.com/microsoft-patch-tuesday-reports/Microsoft-Patch-Tuesday-July-2025.html).
+
+| Thẻ                                                | CVE ID                                                                                  | Tiêu đề CVE                                                                                        | Mức độ nghiêm trọng |
+| --------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------- |
+| AMD L1 Data Queue                                   | [CVE-2025-36357](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-36357) | AMD: CVE-2025-36357 Transient Scheduler Attack in L1 Data Queue                                  | Critical  |
+| AMD Store Queue                                     | [CVE-2025-36350](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-36350) | AMD: CVE-2024-36350 Transient Scheduler Attack in Store Queue                                    | Critical  |
+| Azure Monitor Agent                                 | [CVE-2025-47988](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47988) | Azure Monitor Agent Remote Code Execution Vulnerability                                          | Important |
+| Capability Access Management Service (camsvc)       | [CVE-2025-49690](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49690) | Capability Access Management Service (camsvc) Elevation of Privilege Vulnerability               | Important |
+| HID class driver                                    | [CVE-2025-48816](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48816) | HID Class Driver Elevation of Privilege Vulnerability                                            | Important |
+| Kernel Streaming WOW Thunk Service Driver           | [CVE-2025-49675](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49675) | Kernel Streaming WOW Thunk Service Driver Elevation of Privilege Vulnerability                   | Important |
+| Microsoft Brokering File System                     | [CVE-2025-49677](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49677) | Microsoft Brokering File System Elevation of Privilege Vulnerability                             | Important |
+| Microsoft Brokering File System                     | [CVE-2025-49694](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49694) | Microsoft Brokering File System Elevation of Privilege Vulnerability                             | Important |
+| Microsoft Brokering File System                     | [CVE-2025-49693](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49693) | Microsoft Brokering File System Elevation of Privilege Vulnerability                             | Important |
+| Microsoft Configuration Manager                     | [CVE-2025-47178](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47178) | Microsoft Configuration Manager Remote Code Execution Vulnerability                              | Important |
+| Microsoft Graphics Component                        | [CVE-2025-49732](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49732) | Windows Graphics Component Elevation of Privilege Vulnerability                                  | Important |
+| Microsoft Graphics Component                        | [CVE-2025-49742](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49742) | Windows Graphics Component Remote Code Execution Vulnerability                                   | Important |
+| Microsoft Graphics Component                        | [CVE-2025-49744](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49744) | Windows Graphics Component Elevation of Privilege Vulnerability                                  | Important |
+| Microsoft Input Method Editor (IME)                 | [CVE-2025-49687](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49687) | Windows Input Method Editor (IME) Elevation of Privilege Vulnerability                           | Important |
+| Microsoft Input Method Editor (IME)                 | [CVE-2025-47991](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47991) | Windows Input Method Editor (IME) Elevation of Privilege Vulnerability                           | Important |
+| Microsoft Input Method Editor (IME)                 | [CVE-2025-47972](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47972) | Windows Input Method Editor (IME) Elevation of Privilege Vulnerability                           | Important |
+| Microsoft MPEG-2 Video Extension                    | [CVE-2025-48806](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48806) | Microsoft MPEG-2 Video Extension Remote Code Execution Vulnerability                             | Important |
+| Microsoft MPEG-2 Video Extension                    | [CVE-2025-48805](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48805) | Microsoft MPEG-2 Video Extension Remote Code Execution Vulnerability                             | Important |
+| Microsoft Office                                    | [CVE-2025-47994](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47994) | Microsoft Office Elevation of Privilege Vulnerability                                            | Important |
+| Microsoft Office                                    | [CVE-2025-49697](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49697) | Microsoft Office Remote Code Execution Vulnerability                                             | Critical  |
+| Microsoft Office                                    | [CVE-2025-49695](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49695) | Microsoft Office Remote Code Execution Vulnerability                                             | Critical  |
+| Microsoft Office                                    | [CVE-2025-49696](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49696) | Microsoft Office Remote Code Execution Vulnerability                                             | Critical  |
+| Microsoft Office                                    | [CVE-2025-49699](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49699) | Microsoft Office Remote Code Execution Vulnerability                                             | Important |
+| Microsoft Office                                    | [CVE-2025-49702](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49702) | Microsoft Office Remote Code Execution Vulnerability                                             | Critical  |
+| Microsoft Office Excel                              | [CVE-2025-48812](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48812) | Microsoft Excel Information Disclosure Vulnerability                                             | Important |
+| Microsoft Office Excel                              | [CVE-2025-49711](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49711) | Microsoft Excel Remote Code Execution Vulnerability                                              | Important |
+| Microsoft Office PowerPoint                         | [CVE-2025-49705](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49705) | Microsoft PowerPoint Remote Code Execution Vulnerability                                         | Important |
+| Microsoft Office SharePoint                         | [CVE-2025-49701](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49701) | Microsoft SharePoint Remote Code Execution Vulnerability                                         | Important |
+| Microsoft Office SharePoint                         | [CVE-2025-49704](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49704) | Microsoft SharePoint Remote Code Execution Vulnerability                                         | Critical  |
+| Microsoft Office SharePoint                         | [CVE-2025-49706](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49706) | Microsoft SharePoint Server Spoofing Vulnerability                                               | Important |
+| Microsoft Office Word                               | [CVE-2025-49703](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49703) | Microsoft Word Remote Code Execution Vulnerability                                               | Critical  |
+| Microsoft Office Word                               | [CVE-2025-49698](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49698) | Microsoft Word Remote Code Execution Vulnerability                                               | Critical  |
+| Microsoft Office Word                               | [CVE-2025-49700](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49700) | Microsoft Word Remote Code Execution Vulnerability                                               | Important |
+| Microsoft PC Manager                                | [CVE-2025-47993](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47993) | Microsoft PC Manager Elevation of Privilege Vulnerability                                        | Important |
+| Microsoft PC Manager                                | [CVE-2025-49738](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49738) | Microsoft PC Manager Elevation of Privilege Vulnerability                                        | Important |
+| Microsoft Teams                                     | [CVE-2025-49731](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49731) | Microsoft Teams Elevation of Privilege Vulnerability                                             | Important |
+| Microsoft Teams                                     | [CVE-2025-49737](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49737) | Microsoft Teams Elevation of Privilege Vulnerability                                             | Important |
+| Microsoft Windows QoS scheduler                     | [CVE-2025-49730](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49730) | Microsoft Windows QoS Scheduler Driver Elevation of Privilege Vulnerability                      | Important |
+| Microsoft Windows Search Component                  | [CVE-2025-49685](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49685) | Windows Search Service Elevation of Privilege Vulnerability                                      | Important |
+| Office Developer Platform                           | [CVE-2025-49756](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49756) | Office Developer Platform Security Feature Bypass Vulnerability                                  | Important |
+| Remote Desktop Client                               | [CVE-2025-48817](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48817) | Remote Desktop Client Remote Code Execution Vulnerability                                        | Important |
+| Remote Desktop Client                               | [CVE-2025-33054](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-33054) | Remote Desktop Spoofing Vulnerability                                                            | Important |
+| Role: Windows Hyper-V                               | [CVE-2025-48822](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48822) | Windows Hyper-V Discrete Device Assignment (DDA) Remote Code Execution Vulnerability             | Critical  |
+| Role: Windows Hyper-V                               | [CVE-2025-47999](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47999) | Windows Hyper-V Denial of Service Vulnerability                                                  | Important |
+| Role: Windows Hyper-V                               | [CVE-2025-48002](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48002) | Windows Hyper-V Information Disclosure Vulnerability                                             | Important |
+| Service Fabric                                      | [CVE-2025-21195](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-21195) | Azure Service Fabric Runtime Elevation of Privilege Vulnerability                                | Important |
+| SQL Server                                          | [CVE-2025-49719](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49719) | Microsoft SQL Server Information Disclosure Vulnerability                                        | Important |
+| SQL Server                                          | [CVE-2025-49718](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49718) | Microsoft SQL Server Information Disclosure Vulnerability                                        | Important |
+| SQL Server                                          | [CVE-2025-49717](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49717) | Microsoft SQL Server Remote Code Execution Vulnerability                                         | Critical  |
+| Storage Port Driver                                 | [CVE-2025-49684](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49684) | Windows Storage Port Driver Information Disclosure Vulnerability                                 | Important |
+| Universal Print Management Service                  | [CVE-2025-47986](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47986) | Universal Print Management Service Elevation of Privilege Vulnerability                          | Important |
+| Virtual Hard Disk (VHDX)                            | [CVE-2025-47971](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47971) | Microsoft Virtual Hard Disk Elevation of Privilege Vulnerability                                 | Important |
+| Virtual Hard Disk (VHDX)                            | [CVE-2025-49689](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49689) | Microsoft Virtual Hard Disk Elevation of Privilege Vulnerability                                 | Important |
+| Virtual Hard Disk (VHDX)                            | [CVE-2025-49683](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49683) | Microsoft Virtual Hard Disk Remote Code Execution Vulnerability                                  | Low       |
+| Virtual Hard Disk (VHDX)                            | [CVE-2025-47973](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47973) | Microsoft Virtual Hard Disk Elevation of Privilege Vulnerability                                 | Important |
+| Visual Studio                                       | [CVE-2025-49739](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49739) | Visual Studio Elevation of Privilege Vulnerability                                               | Important |
+| Visual Studio                                       | [CVE-2025-27614](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-27614) | MITRE: CVE-2025-27614 Gitk Arbitrary Code Execution Vulnerability                                | Unknown   |
+| Visual Studio                                       | [CVE-2025-27613](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-27613) | MITRE: CVE-2025-27613 Gitk Arguments Vulnerability                                               | Unknown   |
+| Visual Studio                                       | [CVE-2025-46334](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-46334) | MITRE: CVE-2025-46334 Git Malicious Shell Vulnerability                                          | Unknown   |
+| Visual Studio                                       | [CVE-2025-46835](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-46835) | MITRE: CVE-2025-46835 Git File Overwrite Vulnerability                                           | Unknown   |
+| Visual Studio                                       | [CVE-2025-48384](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48384) | MITRE: CVE-2025-48384 Git Symlink Vulnerability                                                  | Unknown   |
+| Visual Studio                                       | [CVE-2025-48386](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48386) | MITRE: CVE-2025-48386 Git Credential Helper Vulnerability                                        | Unknown   |
+| Visual Studio                                       | [CVE-2025-48385](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48385) | MITRE: CVE-2025-48385 Git Protocol Injection Vulnerability                                       | Unknown   |
+| Visual Studio Code - Python extension               | [CVE-2025-49714](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49714) | Visual Studio Code Python Extension Remote Code Execution Vulnerability                          | Important |
+| Windows Ancillary Function Driver for WinSock       | [CVE-2025-49661](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49661) | Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability               | Important |
+| Windows AppX Deployment Service                     | [CVE-2025-48820](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48820) | Windows AppX Deployment Service Elevation of Privilege Vulnerability                             | Important |
+| Windows BitLocker                                   | [CVE-2025-48818](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48818) | BitLocker Security Feature Bypass Vulnerability                                                  | Important |
+| Windows BitLocker                                   | [CVE-2025-48001](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48001) | BitLocker Security Feature Bypass Vulnerability                                                  | Important |
+| Windows BitLocker                                   | [CVE-2025-48804](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48804) | BitLocker Security Feature Bypass Vulnerability                                                  | Important |
+| Windows BitLocker                                   | [CVE-2025-48003](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48003) | BitLocker Security Feature Bypass Vulnerability                                                  | Important |
+| Windows BitLocker                                   | [CVE-2025-48800](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48800) | BitLocker Security Feature Bypass Vulnerability                                                  | Important |
+| Windows Connected Devices Platform Service          | [CVE-2025-48000](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48000) | Windows Connected Devices Platform Service Elevation of Privilege Vulnerability                  | Important |
+| Windows Connected Devices Platform Service          | [CVE-2025-49724](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49724) | Windows Connected Devices Platform Service Remote Code Execution Vulnerability                   | Important |
+| Windows Cred SSProvider Protocol                    | [CVE-2025-47987](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47987) | Credential Security Support Provider Protocol (CredSSP) Elevation of Privilege Vulnerability     | Important |
+| Windows Cryptographic Services                      | [CVE-2025-48823](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48823) | Windows Cryptographic Services Information Disclosure Vulnerability                              | Important |
+| Windows Event Tracing                               | [CVE-2025-47985](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47985) | Windows Event Tracing Elevation of Privilege Vulnerability                                       | Important |
+| Windows Event Tracing                               | [CVE-2025-49660](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49660) | Windows Event Tracing Elevation of Privilege Vulnerability                                       | Important |
+| Windows Fast FAT Driver                             | [CVE-2025-49721](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49721) | Windows Fast FAT File System Driver Elevation of Privilege Vulnerability                         | Important |
+| Windows GDI                                         | [CVE-2025-47984](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47984) | Windows GDI Information Disclosure Vulnerability                                                 | Important |
+| Windows Imaging Component                           | [CVE-2025-47980](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47980) | Windows Imaging Component Information Disclosure Vulnerability                                   | Critical  |
+| Windows KDC Proxy Service (KPSSVC)                  | [CVE-2025-49735](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49735) | Windows KDC Proxy Service (KPSSVC) Remote Code Execution Vulnerability                           | Critical  |
+| Windows Kerberos                                    | [CVE-2025-47978](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47978) | Windows Kerberos Denial of Service Vulnerability                                                 | Important |
+| Windows Kernel                                      | [CVE-2025-49666](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49666) | Windows Server Setup and Boot Event Collection Remote Code Execution Vulnerability               | Important |
+| Windows Kernel                                      | [CVE-2025-26636](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-26636) | Windows Kernel Information Disclosure Vulnerability                                              | Important |
+| Windows Kernel                                      | [CVE-2025-48809](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48809) | Windows Secure Kernel Mode Information Disclosure Vulnerability                                  | Important |
+| Windows Kernel                                      | [CVE-2025-48808](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48808) | Windows Kernel Information Disclosure Vulnerability                                              | Important |
+| Windows MBT Transport driver                        | [CVE-2025-47996](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-47996) | Windows MBT Transport Driver Elevation of Privilege Vulnerability                                | Important |
+| Windows Media                                       | [CVE-2025-49682](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49682) | Windows Media Elevation of Privilege Vulnerability                                               | Important |
+| Windows Media                                       | [CVE-2025-49691](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49691) | Windows Miracast Wireless Display Remote Code Execution Vulnerability                            | Important |
+| Windows Netlogon                                    | [CVE-2025-49716](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49716) | Windows Netlogon Denial of Service Vulnerability                                                 | Important |
+| Windows Notification                                | [CVE-2025-49726](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49726) | Windows Notification Elevation of Privilege Vulnerability                                        | Important |
+| Windows Notification                                | [CVE-2025-49725](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49725) | Windows Notification Elevation of Privilege Vulnerability                                        | Important |
+| Windows NTFS                                        | [CVE-2025-49678](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49678) | NTFS Elevation of Privilege Vulnerability                                                        | Important |
+| Windows Performance Recorder                        | [CVE-2025-49680](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49680) | Windows Performance Recorder (WPR) Denial of Service Vulnerability                               | Important |
+| Windows Print Spooler Components                    | [CVE-2025-49722](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49722) | Windows Print Spooler Denial of Service Vulnerability                                            | Important |
+| Windows Remote Desktop Licensing Service            | [CVE-2025-48814](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-48814) | Remote Desktop Licensing Service Security Feature Bypass Vulnerability                           | Important |
+| Windows Routing and Remote Access Service (RRAS)    | [CVE-2025-49688](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49688) | Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability             | Important |
+| Windows Routing and Remote Access Service (RRAS)    | [CVE-2025-49676](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49676) | Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability             | Important |
+| Windows Routing and Remote Access Service (RRAS)    | [CVE-2025-49672](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49672) | Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability             | Important |
+| Windows Routing and Remote Access Service (RRAS)    | [CVE-2025-49670](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49670) | Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability             | Important |
+| Windows Routing and Remote Access Service (RRAS)    | [CVE-2025-49671](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49671) | Windows Routing and Remote Access Service (RRAS) Information Disclosure Vulnerability            | Important |
+| Windows Routing and Remote Access Service (RRAS)    | [CVE-2025-49753](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49753) | Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability             | Important |
+| Windows Routing and Remote Access Service (RRAS)    | [CVE-2025-49729](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49729) | Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability             | Important |
+| Windows Routing and Remote Access Service (RRAS)    | [CVE-2025-49673](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49673) | Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability             | Important |
+| Windows Routing and Remote Access Service (RRAS)    | [CVE-2025-49674](https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-49674) | Windows Routing and Remote Access Service
