@@ -1,0 +1,7 @@
+- Co-op đã xác nhận rằng dữ liệu cá nhân của 6.5 triệu thành viên đã bị đánh cắp trong một cuộc tấn công mạng lớn vào tháng 4.
+- Cuộc tấn công dẫn đến việc Co-op phải đóng cửa một số hệ thống CNTT để ngăn chặn việc lây lan của ransomware DragonForce.
+- Hệ thống bị tấn công thông qua một cuộc tấn công kỹ thuật xã hội, cho phép kẻ tấn công đặt lại mật khẩu nhân viên.
+- Tệp Windows NTDS.dit chứa băm mật khẩu đã bị đánh cắp trong sự cố này, cho phép kẻ tấn công bẻ khóa mật khẩu ngoại tuyến.
+- Các tác nhân đe dọa được liên kết với Scattered Spider và đã tham gia vào cuộc tấn công vào Marks & Spencer trước đó.
+- Bốn nghi phạm đã bị bắt giữ, trong đó có một người liên quan đến cuộc tấn công vào MGM Resorts vào năm 2023.
+- Cuộc tấn công này cho thấy sự gia tăng trong các cuộc tấn công bằng ransomware nhắm vào các tổ chức lớn.
