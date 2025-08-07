@@ -1,0 +1,23 @@
+# Air France và KLM công bố các vụ vi phạm dữ liệu ảnh hưởng đến khách hàng
+
+![Air France KLM](https://www.bleepstatic.com/content/hl-images/2025/08/07/AIRFRANCEKLM.jpg)
+
+Air France và KLM thông báo vào thứ Tư rằng các kẻ tấn công đã xâm nhập vào một nền tảng dịch vụ khách hàng và đánh cắp dữ liệu của một số lượng khách hàng không được tiết lộ.
+
+Cùng với Transavia, Air France và KLM là một phần của Tập đoàn Air France–KLM, một công ty holding hàng không đa quốc gia Pháp-Hà Lan được thành lập năm 2004 và là một trong những người chơi quan trọng trong lĩnh vực vận tải hàng không quốc tế.
+
+Với đội tàu gồm 564 máy bay và 78.000 nhân viên, Air France-KLM cung cấp dịch vụ đến tối đa 300 điểm đến ở 90 quốc gia. Trong năm 2024, tập đoàn hàng không đã vận chuyển 98 triệu hành khách trên toàn thế giới.
+
+Hai hãng hàng không cho biết họ đã cắt quyền truy cập của kẻ tấn công vào các hệ thống bị xâm phạm sau khi phát hiện vụ vi phạm và thêm rằng mạng lưới của họ không bị ảnh hưởng bởi cuộc tấn công.
+
+"Air France và KLM đã phát hiện hoạt động bất thường trên một nền tảng bên ngoài mà chúng tôi sử dụng cho dịch vụ khách hàng. Hoạt động này đã dẫn đến việc truy cập trái phép vào dữ liệu khách hàng," [họ cho biết.](https://nieuws.klm.com/klm-informeert-klanten-over-incident-met-persoonsgegevens/) "Các nhóm bảo mật CNTT của chúng tôi, cùng với bên bên ngoài có liên quan, đã hành động ngay lập tức để ngăn chặn quyền truy cập trái phép. Các biện pháp cũng đã được thực hiện để ngăn chặn tái diễn. Các hệ thống nội bộ của Air France và KLM không bị ảnh hưởng."
+
+Trong khi các kẻ tấn công đã truy cập vào dữ liệu khách hàng, Air France và KLM cho biết rằng thông tin tài chính và cá nhân của khách hàng không bị ảnh hưởng. Các hãng hàng không cũng đã thông báo cho các cơ quan liên quan ở các nước của họ về sự cố và hiện đang thông báo cho những cá nhân bị ảnh hưởng rằng dữ liệu của họ đã bị đánh cắp.
+
+"KLM đã báo cáo sự cố cho Cơ quan Bảo vệ Dữ liệu Hà Lan; Air France đã làm điều tương tự ở Pháp với CNIL," họ thêm. "Các khách hàng có thể đã bị truy cập dữ liệu hiện đang được thông báo và khuyến cáo cần cẩn trọng hơn đối với các email hoặc cuộc gọi khả nghi."
+
+Điều này diễn ra ngay sau một loạt các vụ vi phạm hàng không khác liên quan đến tập hợp hacker Scattered Spider, nhóm này đã chuyển trọng tâm [đến các công ty hàng không và vận tải](https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/), xâm nhập vào [WestJet](https://www.bleepingcomputer.com/news/security/westjet-investigates-cyberattack-disrupting-internal-systems/) và [Hawaiian Airlines](https://www.bleepingcomputer.com/news/security/hawaiian-airlines-discloses-cyberattack-flights-not-affected/) sau khi trước đó nhắm mục tiêu vào lĩnh vực [bảo hiểm](https://www.bleepingcomputer.com/news/security/google-warns-scattered-spider-hackers-now-target-us-insurance-companies/) và [bán lẻ](https://www.bleepingcomputer.com/tag/retail-store/).
+
+Nhiều công ty nổi tiếng, bao gồm [Adidas](https://www.bleepingcomputer.com/news/security/adidas-warns-of-data-breach-after-customer-service-provider-hack/), [Qantas](https://www.bleepingcomputer.com/news/security/qantas-confirms-data-breach-impacts-57-million-customers/), [Allianz Life](https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/), [Louis Vuitton](https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/), [Dior](https://www.bleepingcomputer.com/news/security/fashion-giant-dior-discloses-cyberattack-warns-of-data-breach/), [Tiffany & Co.](https://www.chosun.com/english/industry-en/2025/05/26/ORM5MULB7NEM7EBUFVXHVLSB4A/), [Chanel](https://www.bleepingcomputer.com/news/security/fashion-giant-chanel-hit-in-wave-of-salesforce-data-theft-attacks/), và gần đây nhất là [Google](https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/), cũng đã bị tấn công trong một loạt các vụ tấn công nhằm vào các instance Salesforce [liên quan đến một tác nhân đe dọa được biết đến với tên ShinyHunters](https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/).
+
+Một người phát ngôn của Air France–KLM đã không thể ngay lập tức bình luận khi được liên lạc bởi BleepingComputer để công bố số lượng cá nhân bị ảnh hưởng và để xác nhận xem dữ liệu của khách hàng có bị đánh cắp từ một instance Salesforce bị xâm phạm hay không.
