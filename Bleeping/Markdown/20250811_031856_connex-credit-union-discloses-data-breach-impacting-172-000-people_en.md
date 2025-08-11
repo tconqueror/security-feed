@@ -1,0 +1,21 @@
+# Connex Credit Union data breach impacts 172,000 members
+
+![Connex Credit Union](https://www.bleepstatic.com/content/hl-images/2025/08/11/Connex-credit-union.jpg)
+
+Connex, one of Connecticut's largest credit unions, warned tens of thousands of members that unknown attackers had stolen their personal and financial information after breaching its systems in early June.
+
+Founded in 1940, this member-owned organization is a non-profit with over $1 billion in assets, providing banking, insurance, and credit card services to more than 70,000 members across eight branches throughout the greater New Haven area, including New Haven, Hartford, Middlesex, and Fairfield counties.
+
+In data breach notification letters sent to affected individuals via U.S. Mail and filed with the office of Maine's Attorney General, Connex states that it discovered the incident on June 3, one day after its network was breached.
+
+"The investigation revealed that certain files may have been accessed or downloaded without authorization between June 2 and 3, 2025," [it said.](https://www.maine.gov/agviewer/content/ag/985235c7-cb95-4be2-8792-a1252b4f8318/ba496af0-2688-4929-ad01-f07a4d8972cf.html) "On July 27, 2025, Connex identified certain individuals whose personal information may have been involved in the incident."
+
+The non-profit has yet to find evidence that the attackers gained access to the affected members' funds or accounts, but has discovered that they stole a combination of personal and financial data, including names, account numbers, debit card information, Social Security numbers, and government IDs.
+
+While the breach notification letters don't mention anything about the stolen data being used in attacks, Connex now [displays a scam alert](https://www.connexcu.org/home/home) on its official websites, cautioning members of scammers impersonating its employees in ongoing phishing attacks.
+
+"Please be aware that scammers are calling/texting members impersonating Connex employees. Connex will never call you and ask for PINs, passcodes, or account numbers," Connex warns. "If you receive a suspicious call or text, hang up and call us directly at 1-800-CR-UNION (203-603-5700)."
+
+The disclosure comes on the heels of [a wave](https://www.bleepingcomputer.com/news/security/google-hackers-target-salesforce-accounts-in-data-extortion-attacks/) of data breaches [linked to the ShinyHunters extortion group](https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/), which targets Salesforce instances in vishing and social engineering attacks, impacting many high-profile companies, including [Allianz Life](https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/), [Adidas](https://www.bleepingcomputer.com/news/security/adidas-warns-of-data-breach-after-customer-service-provider-hack/), [Qantas](https://www.bleepingcomputer.com/news/security/qantas-confirms-data-breach-impacts-57-million-customers/), [Louis Vuitton](https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/), [Dior](https://www.bleepingcomputer.com/news/security/fashion-giant-dior-discloses-cyberattack-warns-of-data-breach/), [Tiffany & Co.](https://www.chosun.com/english/industry-en/2025/05/26/ORM5MULB7NEM7EBUFVXHVLSB4A/), [Chanel](https://www.bleepingcomputer.com/news/security/fashion-giant-chanel-hit-in-wave-of-salesforce-data-theft-attacks/), and [Google](https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/).
+
+The [insurance](https://www.bleepingcomputer.com/news/security/google-warns-scattered-spider-hackers-now-target-us-insurance-companies/) sector has also been targeted by attacks linked to the Scattered Spider hacker collective, which has shifted its focus [to aviation firms](https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/) and [retail companies](https://www.bleepingcomputer.com/tag/retail-store/) in recent months.
