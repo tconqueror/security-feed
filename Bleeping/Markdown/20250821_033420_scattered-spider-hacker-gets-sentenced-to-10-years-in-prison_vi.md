@@ -1,0 +1,35 @@
+# Hacker Scattered Spider bị kết án 10 năm tù
+
+![Spider](https://www.bleepstatic.com/content/hl-images/2025/08/21/Spider.jpg)
+
+Noah Michael Urban, một thành viên chủ chốt của tập đoàn tội phạm mạng Scattered Spider, đã bị kết án 10 năm tù vào thứ Tư sau khi nhận tội về các cáo buộc lừa đảo qua điện thoại và âm mưu [trong tháng 4](https://storage.courtlistener.com/recap/gov.uscourts.flmd.422789/gov.uscourts.flmd.422789.66.0.pdf).
+
+Anh ta đã bị bắt [vào tháng 1 năm 2024](https://www.justice.gov/usao-mdfl/pr/palm-coast-man-arrested-wire-fraud-and-aggravated-identity-theft-charges), và vào tháng 11, Bộ Tư pháp Hoa Kỳ [cáo buộc Urban](https://www.bleepingcomputer.com/news/security/us-charges-five-linked-to-scattered-spider-cybercrime-gang/) (còn được biết đến với tên King Bob, Gustavo Fring, Elijah và Sosa), cùng với bốn nghi phạm khác có liên quan đến cùng một nhóm tội phạm mạng có động cơ tài chính. Các cáo buộc bao gồm lừa đảo qua điện thoại, âm mưu thực hiện lừa đảo qua điện thoại và đánh cắp danh tính nghiêm trọng.
+
+Theo [các tài liệu của tòa án](https://legacy.www.documentcloud.org/documents/25355101-usa-v-buchanan-complaint-redacted/), họ đã có thể đánh cắp hàng triệu đô la từ các ví tiền điện tử giữa tháng 9 năm 2021 và tháng 4 năm 2023, sử dụng thông tin đăng nhập bị đánh cắp trong các cuộc tấn công lừa đảo SMS nhắm vào hàng chục cá nhân và công ty.
+
+Họ cũng đã sử dụng thông tin đăng nhập bị đánh cắp từ nhân viên của các công ty bị hack để đánh cắp dữ liệu bí mật, bao gồm các cơ sở dữ liệu, thông tin nhận dạng cá nhân cũng như "sản phẩm công việc bí mật, tài sản trí tuệ" từ các hệ thống của họ.
+
+Tất cả thông tin bị đánh cắp này sau đó đã được sử dụng để xâm nhập tài khoản email của nạn nhân trong các cuộc tấn công SIM swap, cho phép họ kiểm soát số điện thoại và ví tiền điện tử của nạn nhân để chuyển hàng triệu đô la vào các ví thuộc quyền kiểm soát của họ.
+
+Trong một cuộc phỏng vấn vào tháng 5 năm 2023 với các nhà điều tra, Urban cho biết anh đã kiếm được "vài triệu đô la" từ việc đánh cắp tiền điện tử giữa tháng 1 năm 2021 và tháng 3 năm 2023, bên cạnh việc tham gia vào các vụ trộm thêm vài triệu đô la khác, thêm vào đó anh vẫn còn vài triệu sau khi mất hầu hết thu nhập của mình trên các trang web cá cược.
+
+![Volusia County Sheriff's Office](https://www.bleepstatic.com/images/news/u/1109292/2025/Noah-Urban.jpg)
+
+_Noah Michael Urban (Văn phòng Cảnh sát Quận Volusia)_
+
+Như [News4Jax đã báo cáo đầu tiên](https://www.news4jax.com/news/local/2025/08/20/palm-coast-man-linked-to-scattered-spider-cybercrime-gang-sentenced-to-10-years-for-cryptocurrency-theft/), Urban nhận án tù 120 tháng, mặc dù công tố viên chỉ yêu cầu 8 năm, và còn phải trả 13 triệu đô la tiền bồi thường cho các nạn nhân.
+
+Khi nhà báo điều tra Brian Krebs [liên lạc với Urban qua Twitter](http://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/) sau phiên xử, Urban đã trả lời từ một nhà tù quận ở Florida, cho biết rằng anh tin rằng bản án là không công bằng. Anh lập luận rằng thẩm phán đã không xem xét tuổi của anh như một yếu tố giảm nhẹ vì một thành viên khác của Scattered Spider đã hack thẩm phán trong vụ án.
+
+## Tập đoàn tội phạm mạng Scattered Spider
+
+[Scattered Spider](https://www.bleepingcomputer.com/tag/scattered-spider/) (cũng được theo dõi dưới tên [0ktapus](https://www.bleepingcomputer.com/news/security/twilio-hackers-hit-over-130-orgs-in-massive-okta-phishing-attack/), [Scatter Swine](https://www.bleepingcomputer.com/news/security/okta-one-time-mfa-passcodes-exposed-in-twilio-cyberattack/), [UNC3944](https://www.mandiant.com/resources/blog/unc3944-sms-phishing-sim-swapping-ransomware) và [Muddled Libra](https://unit42.paloaltonetworks.com/muddled-libra/), among others) là một tập hợp các tác nhân đe dọa linh hoạt nổi tiếng với các cuộc tấn công kỹ thuật xã hội tinh vi nhắm vào các tổ chức nổi bật trên toàn thế giới và sử dụng nhiều kỹ thuật khác nhau, bao gồm tấn công lừa đảo, SIM swapping và đánh bom đa yếu tố xác thực (MFA).
+
+Các cuộc tấn công của họ đã gia tăng vào tháng 9 năm 2023, khi họ xâm nhập vào [MGM Resorts](https://www.bleepingcomputer.com/news/security/mgm-resorts-shuts-down-it-systems-after-cyberattack/) và mã hóa hơn 100 hypervisor VMware ESXi bằng ransomware BlackCat sau khi giả mạo một nhân viên.
+
+Trong một số trường hợp, các thành viên của Scattered Spider cũng đã hợp tác với các hoạt động ransomware, như [Qilin](https://www.bleepingcomputer.com/news/security/microsoft-links-scattered-spider-hackers-to-qilin-ransomware-attacks/), [RansomHub](https://reliaquest.com/blog/scattered-spider-x-ransomhub-a-new-partnership/) và [DragonForce](https://www.bleepingcomputer.com/news/security/co-op-confirms-data-theft-after-dragonforce-ransomware-claims-attack/).
+
+Các tổ chức nổi bật bị Scattered Spider tấn công trong những năm gần đây bao gồm [Twilio](https://www.bleepingcomputer.com/news/security/twilio-hackers-hit-over-130-orgs-in-massive-okta-phishing-attack/), [Coinbase](https://www.bleepingcomputer.com/news/security/coinbase-cyberattack-targeted-employees-with-fake-sms-alert/), [DoorDash](https://www.bleepingcomputer.com/news/security/doordash-discloses-new-data-breach-tied-to-twilio-hackers/), [Caesars](https://www.bleepingcomputer.com/news/security/caesars-entertainment-confirms-ransom-payment-customer-data-theft/), [MailChimp](https://www.bleepingcomputer.com/news/security/mailchimp-discloses-new-breach-after-employees-got-hacked/), [Riot Games](https://www.bleepingcomputer.com/news/security/riot-games-receives-ransom-demand-from-hackers-refuses-to-pay/) và [Reddit](https://www.bleepingcomputer.com/news/security/reddit-hackers-threaten-to-leak-data-stolen-in-february-breach/). Gần đây hơn, các tác nhân đe dọa đã chuyển đổi trọng tâm từ việc nhắm mục tiêu [bán lẻ](https://www.bleepingcomputer.com/news/security/google-scattered-spider-switches-targets-to-us-retail-chains/) và [các công ty bảo hiểm](https://www.bleepingcomputer.com/news/security/google-warns-scattered-spider-hackers-now-target-us-insurance-companies/) sang [ngành hàng không và vận tải](https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/).
+
+Cảnh sát Vương quốc Anh [đã bắt giữ một thành viên khác của Scattered Spider](https://www.bleepingcomputer.com/news/security/uk-arrests-suspected-scattered-spider-hacker-linked-to-mgm-attack/) vào tháng 7 năm 2024, một nghi phạm 17 tuổi được cho là đã tham gia vào vụ [tấn công ransomware MGM Resorts năm 2023](https://www.bleepingcomputer.com/tag/mgm-resorts/). Vào tháng 12 năm 2024, các cơ quan chức năng Hoa Kỳ [bắt giữ thêm một thanh niên khác](https://www.bleepingcomputer.com/news/security/us-arrests-scattered-spider-suspect-linked-to-telecom-hacks/) (một thanh niên 19 tuổi được biết đến trên mạng với tên gọi "remi" cũng có liên quan đến Scattered Spider), cáo buộc anh ta đã xâm phạm vào một tổ chức tài chính Hoa Kỳ và hai công ty viễn thông không tên.
