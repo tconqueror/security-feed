@@ -1,5 +1,3 @@
-**markdown in Vietnamese**  
-```markdown
 # Nevada đóng cửa các văn phòng nhà nước do cuộc tấn công mạng gián đoạn hệ thống CNTT
 
 ![Nevada](https://www.bleepstatic.com/content/hl-images/2025/08/26/nevada-sign.jpg)
@@ -33,4 +31,3 @@ Các cuộc tấn công mạng đối với các cơ quan chính phủ thường
 Bộ máy chính phủ Nevada hiện đang làm việc với các cơ quan địa phương, bộ lương và liên bang để điều tra và phản ứng với cuộc tấn công.
 
 Văn phòng Thống đốc cảnh báo cư dân cẩn thận với các cuộc gọi hoặc email không được yêu cầu nhờ thông tin nhạy cảm.
-```
