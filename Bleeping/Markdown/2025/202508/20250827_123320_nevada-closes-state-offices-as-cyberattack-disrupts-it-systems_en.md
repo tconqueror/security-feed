@@ -1,5 +1,3 @@
-**markdown in English**  
-```markdown
 # Nevada closes state offices as cyberattack disrupts IT systems
 
 ![Nevada](https://www.bleepstatic.com/content/hl-images/2025/08/26/nevada-sign.jpg)
@@ -33,4 +31,3 @@ Cyberattacks on government agencies often cause significant disruption but rarel
 The Nevada government is now working with local, tribal, and federal agencies to investigate and respond to the attack.
 
 The Governor's office is warning residents to be cautious of unsolicited calls or emails asking for sensitive information.
-```
