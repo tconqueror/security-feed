@@ -1,0 +1,39 @@
+# ShinyHunters launches Salesforce data leak site to extort 39 victims
+
+![Salesforce](https://www.bleepstatic.com/content/hl-images/2025/10/03/Salesforce.jpg)
+
+An extortion group has launched a new data leak site to publicly extort dozens of companies impacted by a [wave of Salesforce breaches](https://www.bleepingcomputer.com/tag/salesforce/), leaking samples of data stolen in the attacks.
+
+The threat actors responsible for these attacks claim to be part of the ShinyHunters, Scattered Spider, and Lapsus$ groups, collectively referring to themselves as "Scattered Lapsus$ Hunters."
+
+Today, they launched a new data leak site containing 39 companies impacted by the attacks. Each entry includes samples of data allegedly stolen from victims' Salesforce instances, and warns the victims to reach out to "prevent public disclosure" of their data before the October 10 deadline is reached.
+
+The companies being extorted on the data leak site include well-known brands and organizations, including FedEx, Disney/Hulu, Home Depot, Marriott, Google, Cisco, Toyota, Gap, McDonald's, Walgreens, Instacart, Cartier, Adidas, Sake Fifth Avenue, Air France & KLM, Transunion, HBO MAX, UPS, Chanel, and IKEA.
+
+"We highly advise you proceed into the right decision, your organisation can prevent the release of this data, regain control over the situation and all operations remain stable as always," they said. "We highly recommend a decision-maker to get involved as we are presenting a clear and mutually beneficial opportunity to resolve this matter."
+
+They also added a separate entry requesting that Salesforce pay a ransom to prevent all impacted customers' data (approximately 1 billion records containing personal information) from being leaked.
+
+"Should you comply, we will withdraw from any active or pending negotiation indiviually from your customers. Your customers will not be attacked again nor will they face a ransom from us again, should you pay," they added.
+
+The extortion group also threatened the company, stating that it would help law firms pursue civil and commercial lawsuits against Salesforce following the data breaches and warned that the company had also failed to protect customers' data as required by the European General Data Protection Regulation (GDPR).
+
+![ShinyHunters Salesforce _leaks](https://www.bleepstatic.com/images/news/u/1109292/2025/ShinyHunters_Salesforce_leaks.png)
+
+_ShinyHunters Salesforce leaks (BleepingComputer)_
+
+Scattered Lapsus$ Hunters have been [targeting Salesforce customers](https://www.bleepingcomputer.com/news/security/shinyhunters-behind-salesforce-data-theft-attacks-at-qantas-allianz-life-and-lvmh/) with voice phishing attacks[ since the beginning of the year](https://www.bleepingcomputer.com/news/security/google-hackers-target-salesforce-accounts-in-data-extortion-attacks/), leading to breaches that have impacted companies such as [Google](http://ogle-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/), [Cisco](https://www.bleepingcomputer.com/news/security/cisco-discloses-data-breach-impacting-ciscocom-user-accounts/), [Qantas](https://www.bleepingcomputer.com/news/security/qantas-confirms-data-breach-impacts-57-million-customers/), [Adidas](https://www.bleepingcomputer.com/news/security/adidas-warns-of-data-breach-after-customer-service-provider-hack/), [Allianz Life](https://www.bleepingcomputer.com/news/security/allianz-life-confirms-data-breach-impacts-majority-of-14-million-customers/), [Farmers Insurance](https://www.bleepingcomputer.com/news/security/farmers-insurance-data-breach-impacts-11m-people-after-salesforce-attack/), [Workday](https://www.bleepingcomputer.com/news/security/hr-giant-workday-discloses-data-breach-amid-salesforce-attacks/), as well as LVMH subsidiaries, including [Dior](https://www.bleepingcomputer.com/news/security/fashion-giant-dior-discloses-cyberattack-warns-of-data-breach/), [Louis Vuitton](https://www.bleepingcomputer.com/news/security/louis-vuitton-says-regional-data-breaches-tied-to-same-cyberattack/), and [Tiffany & Co](https://www.chosun.com/english/industry-en/2025/05/26/ORM5MULB7NEM7EBUFVXHVLSB4A/).
+
+In these attacks, the threat actors tricked employees into linking a malicious OAuth app to their company's Salesforce instance. Once connected, the attackers stole company databases and used the data to extort victims via email.
+
+These extortion emails were signed by ShinyHunters, a notorious extortion group linked to a long string of high-profile breaches in recent years, including the [Snowflake attacks](https://www.bleepingcomputer.com/tag/snowflake/) and those against [AT&T and](https://www.bleepingcomputer.com/news/security/atandt-confirms-data-for-73-million-customers-leaked-on-hacker-forum/) [PowerSchool](https://www.bleepingcomputer.com/news/security/powerschool-hacker-now-extorting-individual-school-districts/).
+
+ShinyHunters also claimed to have used [stolen OAuth tokens](https://www.bleepingcomputer.com/news/security/google-warns-salesloft-breach-impacted-some-workspace-accounts/) for Salesloft's Drift AI chat integration with Salesforce to steal sensitive information, including passwords, AWS access keys, and Snowflake tokens, from customers' Salesforce instances.
+
+These attacks were tracked by Mandiant under a separate threat cluster named "UNC6395" as they have been unable to formally link the breaches to this group.
+
+On a Telegram channel associated with the extortion group, the threat actors claim that they will begin extorting companies affected by the Salesloft Drift attacks on a separate data leak site launching on October 10th.
+
+ShinyHunters previously told BleepingComputer that the Salesloft data theft attacks impacted approximately 760 companies and resulted in [the theft of 1.5 billion Salesforce records](https://www.bleepingcomputer.com/news/security/shinyhunters-claims-15-billion-salesforce-records-stolen-in-drift-hacks/).
+
+The Salesloft attacks are known to have impacted [Google](https://www.bleepingcomputer.com/news/security/google-warns-salesloft-breach-impacted-some-workspace-accounts/), [Palo Alto Networks](https://www.bleepingcomputer.com/news/security/palo-alto-networks-data-breach-exposes-customer-info-support-cases/), [CyberArk](https://www.cyberark.com/resources/blog/salesloft-drift-incident-overview-and-cyberarks-response), [Cloudflare](https://www.bleepingcomputer.com/news/security/cloudflare-hit-by-data-breach-in-salesloft-drift-supply-chain-attack/), [Rubrik](https://www.rubrik.com/blog/company/25/salesforce-connected-third-party-drift-application-supply-chain-incident-response), [Elastic](https://www.elastic.co/blog/elastic-update-salesloft-drift-security-incident), [BeyondTrust](https://www.beyondtrust.com/trust-center/security-advisories/salesforce-salesloft-drift-security-incident), [Proofpoint](https://www.proofpoint.com/us/blog/corporate-news/salesloft-drift-supply-chain-incident-response), [JFrog](https://jfrog.com/help/r/salesforce-data-incident-identified-linked-to-third-party-salesloft-drift/salesforce-data-incident-identified-linked-to-third-party-salesloft-drift), [Zscaler](https://www.bleepingcomputer.com/news/security/zscaler-data-breach-exposes-customer-info-after-salesloft-drift-compromise/), [Tenable](https://www.tenable.com/blog/tenable-response-to-salesforce-and-salesloft-drift-incident), [Nutanix](https://www.nutanix.com/blog/third-party-salesloft-drift-application-incident-response-our-impact-and-action), [Qualys](https://blog.qualys.com/misc/2025/09/06/salesloft-drift-supply-chain-incident), [Cato Networks](https://www.catonetworks.com/blog/cato-networks-statement-on-salesforce-salesloft-drift-incident/), and [many more](https://www.driftbreach.com/).
