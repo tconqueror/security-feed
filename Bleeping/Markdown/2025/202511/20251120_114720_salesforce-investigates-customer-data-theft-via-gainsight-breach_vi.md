@@ -1,0 +1,27 @@
+# Salesforce điều tra việc đánh cắp dữ liệu khách hàng thông qua vụ vi phạm của Gainsight
+
+![Salesforce](https://www.bleepstatic.com/content/hl-images/2025/11/20/Salesforce.jpg)
+
+Salesforce cho biết họ đã thu hồi các refresh token liên kết với các ứng dụng do Gainsight phát hành trong khi điều tra một làn sóng mới các vụ tấn công đánh cắp dữ liệu nhắm vào khách hàng.
+
+Công ty phần mềm dựa trên đám mây này lưu ý rằng điều này không xuất phát từ một lỗ hổng trong nền tảng quản lý quan hệ khách hàng (CRM) của họ vì tất cả bằng chứng cho thấy hoạt động độc hại liên quan đến kết nối bên ngoài của ứng dụng với Salesforce.
+
+"Salesforce đã xác định hoạt động bất thường liên quan đến các ứng dụng do Gainsight phát hành kết nối với Salesforce, vốn được khách hàng cài đặt và quản lý trực tiếp. Cuộc điều tra của chúng tôi cho thấy hoạt động này có thể đã cho phép truy cập trái phép vào dữ liệu Salesforce của một số khách hàng thông qua kết nối của ứng dụng," [công ty cho biết](https://status.salesforce.com/generalmessages/20000233) trong một thông báo sáng thứ Năm.
+
+[![Wiz](https://www.bleepstatic.com/c/w/wiz/AI-Data-Security-970x250.png)](https://www.wiz.io/lp/ai-data-security-best-practices-cheat-sheet?utm%5Fsource=bleepingcomputer&utm%5Fmedium=display&utm%5Fcampaign=FY26Q3%5FINB%5FForm%5FAI-Data-Security-Best-Practices&sfcid=701Py00000SmgsrIAB&utm%5Fterm=FY26Q4-bleepingcomputer-970x250&utm%5Fcontent=AI-Data-Security-BP) 
+
+"Ngay sau khi phát hiện hoạt động này, Salesforce đã thu hồi tất cả access và refresh token đang hoạt động liên quan đến các ứng dụng do Gainsight phát hành kết nối với Salesforce và tạm thời gỡ những ứng dụng đó khỏi AppExchange trong khi cuộc điều tra tiếp tục."
+
+Salesforce đã thông báo cho tất cả khách hàng bị ảnh hưởng về sự cố này và khuyên những ai cần hỗ trợ thêm hãy liên hệ với đội ngũ Salesforce Help.
+
+Mặc dù công ty chưa cung cấp thêm chi tiết về những vụ tấn công này, sự cố này tương tự vụ vi phạm Salesloft vào tháng 8 năm 2025, khi một nhóm tống tiền được biết đến với tên "Scattered Lapsus$ Hunters" đã đánh cắp thông tin nhạy cảm, bao gồm mật khẩu, AWS access keys và Snowflake tokens, từ các instance Salesforce của khách hàng, sử dụng [OAuth tokens bị đánh cắp](https://www.bleepingcomputer.com/news/security/google-warns-salesloft-breach-impacted-some-workspace-accounts/) cho tích hợp trò chuyện AI Drift của Salesloft với Salesforce.
+
+Nhóm tống tiền ShinyHunters lúc đó nói với BleepingComputer rằng các vụ tấn công đánh cắp dữ liệu Salesloft đã ảnh hưởng khoảng 760 công ty, dẫn đến [việc đánh cắp 1,5 tỷ bản ghi Salesforce](https://www.bleepingcomputer.com/news/security/shinyhunters-claims-15-billion-salesforce-records-stolen-in-drift-hacks/).
+
+Các công ty được biết là đã bị ảnh hưởng trong các vụ tấn công Salesloft bao gồm [Google](https://www.bleepingcomputer.com/news/security/google-warns-salesloft-breach-impacted-some-workspace-accounts/), [Cloudflare](https://www.bleepingcomputer.com/news/security/cloudflare-hit-by-data-breach-in-salesloft-drift-supply-chain-attack/), [Rubrik](https://www.rubrik.com/blog/company/25/salesforce-connected-third-party-drift-application-supply-chain-incident-response), [Elastic](https://www.elastic.co/blog/elastic-update-salesloft-drift-security-incident), [Proofpoint](https://www.proofpoint.com/us/blog/corporate-news/salesloft-drift-supply-chain-incident-response), [JFrog](https://jfrog.com/help/r/salesforce-data-incident-identified-linked-to-third-party-salesloft-drift/salesforce-data-incident-identified-linked-to-third-party-salesloft-drift), [Zscaler](https://www.bleepingcomputer.com/news/security/zscaler-data-breach-exposes-customer-info-after-salesloft-drift-compromise/), [Tenable](https://www.tenable.com/blog/tenable-response-to-salesforce-and-salesloft-drift-incident), [Palo Alto Networks](https://www.bleepingcomputer.com/news/security/palo-alto-networks-data-breach-exposes-customer-info-support-cases/), [CyberArk](https://www.cyberark.com/resources/blog/salesloft-drift-incident-overview-and-cyberarks-response), [BeyondTrust](https://www.beyondtrust.com/trust-center/security-advisories/salesforce-salesloft-drift-security-incident), [Nutanix](https://www.nutanix.com/blog/third-party-salesloft-drift-application-incident-response-our-impact-and-action), [Qualys](https://blog.qualys.com/misc/2025/09/06/salesloft-drift-supply-chain-incident), và [Cato Networks](https://www.catonetworks.com/blog/cato-networks-statement-on-salesforce-salesloft-drift-incident/), [cùng nhiều công ty khác](https://www.driftbreach.com/).
+
+Hôm nay, trong các tin nhắn trao đổi với BleepingComputer, ShinyHunters tuyên bố họ đã truy cập thêm 285 instance Salesforce nữa sau khi xâm nhập Gainsight thông qua các bí mật bị đánh cắp trong vụ vi phạm Salesloft Drift.
+
+Gainsight [trước đây đã xác nhận](https://www.gainsight.com/security/) rằng họ bị xâm nhập thông qua OAuth tokens bị đánh cắp liên quan đến Salesloft Drift và cho biết các kẻ tấn công đã truy cập thông tin liên hệ doanh nghiệp, bao gồm tên, địa chỉ email doanh nghiệp, số điện thoại, thông tin khu vực/vị trí, thông tin cấp phép và nội dung các trường hợp hỗ trợ.
+
+BleepingComputer đã liên hệ với Gainsight để đặt câu hỏi về các vụ tấn công đánh cắp dữ liệu liên quan đến các ứng dụng của Gainsight, nhưng phản hồi chưa có ngay lập tức.
