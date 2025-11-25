@@ -1,0 +1,349 @@
+# The Black Friday 2025 Cybersecurity, IT, VPN, & Antivirus Deals
+
+![Black Friday](https://www.bleepstatic.com/content/hl-images/2022/11/21/black-friday-sale.jpg)
+
+Black Friday 2025 is almost here, and early deals are already live across security software, online courses, system administration tools, antivirus products, and VPN services.
+
+These discounts are limited-time offers and vary by provider, so if you see something that fits your needs, it's best to act while it's available.
+
+Below is the curated list of verified promotions, organized by category.
+
+[![Wiz](https://www.bleepstatic.com/c/w/wiz/Securing-AI-Agents-970x250.png)](https://www.wiz.io/lp/securing-ai-agents-101?utm%5Fsource=bleepingcomputer&utm%5Fmedium=display&utm%5Fcampaign=FY26Q3%5FINB%5FFORM%5FSecuring-AI-Agents-101&sfcid=701Py00000RTEWMIA5&utm%5Fterm=FY26Q4-bleepingcomputer-970x250&utm%5Fcontent=AIAgents101) 
+
+## Password Manager Deals
+
+#### [Passwork — 50% off all plans](https://passwork.pro/?utm%5Fsource=bleepingcomputer&utm%5Fmedium=bestdeals&utm%5Fcampaign=blackfriday2025 "Buy now from Passwork")
+
+[![Passwork](https://www.bleepstatic.com/images/news/black-friday/logos/passwork-logo.jpg)](https://passwork.pro/?utm%5Fsource=bleepingcomputer&utm%5Fmedium=bestdeals&utm%5Fcampaign=blackfriday2025)
+
+[From: ](https://passwork.pro/?utm%5Fsource=bleepingcomputer&utm%5Fmedium=bestdeals&utm%5Fcampaign=blackfriday2025 "Buy now from Passwork")Passwork
+
+[Was: ](https://passwork.pro/?utm%5Fsource=bleepingcomputer&utm%5Fmedium=bestdeals&utm%5Fcampaign=blackfriday2025 "Buy now from Passwork")From $3 per user/per month
+
+[Now: From $1.5 per user/per month](https://passwork.pro/?utm%5Fsource=bleepingcomputer&utm%5Fmedium=bestdeals&utm%5Fcampaign=blackfriday2025 "Buy now from Passwork") (50% off)
+
+Dates: 11/26/25 through 12/03/25
+
+[View Deal](https://passwork.pro/?utm%5Fsource=bleepingcomputer&utm%5Fmedium=bestdeals&utm%5Fcampaign=blackfriday2025 "Buy now from Passwork")
+
+Passwork is offering a 50% discount on all plans as part of its Black Friday promotion.
+
+---
+
+#### [LastPass - Up to 50% off password manager subscriptions](https://lastpass.wo8g.net/c/568102/3383257/8692 "Buy now from LastPass")
+
+[](https://lastpass.wo8g.net/c/568102/3383257/8692)
+
+[From: ](https://lastpass.wo8g.net/c/568102/3383257/8692 "Buy now from LastPass")LastPass
+
+[Was: ](https://lastpass.wo8g.net/c/568102/3383257/8692 "Buy now from LastPass")Various
+
+[Now: Various (Up to 50% Off)](https://lastpass.wo8g.net/c/568102/3383257/8692 "Buy now from LastPass")
+
+[Dates: Now through 12/08/25](https://lastpass.wo8g.net/c/568102/3383257/8692 "Buy now from LastPass")
+
+[View Deal](https://lastpass.wo8g.net/c/568102/3383257/8692 "Buy now from LastPass")
+
+LastPass has a Cyber Week sale with 50% off Premium & Families, 10% off Teams, 20% off Business and 30% off Business Max Plans
+
+---
+
+#### [Dashlane — 60% off personal plans](https://www.dashlane.com/pricing "Buy now from Dashlane")
+
+[](https://www.dashlane.com/pricing)
+
+[From: ](https://www.dashlane.com/pricing "Buy now from Dashlane")Dashlane
+
+[Was: ](https://www.dashlane.com/pricing "Buy now from Dashlane")Various
+
+[Now: Various (60% Off)](https://www.dashlane.com/pricing "Buy now from Dashlane")
+
+[Dates: Now through 11/30/25](https://www.dashlane.com/pricing "Buy now from Dashlane")
+
+[View Deal](https://www.dashlane.com/pricing "Buy now from Dashlane")
+
+Dashlane is offering a 60% discount on all personal plans as part of its Black Friday promotion.
+
+## VPN Deals
+
+#### [NordVPN: 77% off a 2-Year Subscription + 3 free months](https://go.nordvpn.net/aff%5Fc?offer%5Fid=496&aff%5Fid=8376 "Buy now from NordVPN")
+
+[](https://go.nordvpn.net/aff%5Fc?offer%5Fid=496&aff%5Fid=8376)
+
+[From: NordVPN](https://go.nordvpn.net/aff%5Fc?offer%5Fid=496&aff%5Fid=8376 "Buy now from NordVPN")
+
+[Was: ](https://go.nordvpn.net/aff%5Fc?offer%5Fid=496&aff%5Fid=8376 "Buy now from NordVPN")Various
+
+[Now: Various (Up to 77% Off)](https://go.nordvpn.net/aff%5Fc?offer%5Fid=496&aff%5Fid=8376 "Buy now from NordVPN")
+
+[Dates: Now through 12/2/25](https://go.nordvpn.net/aff%5Fc?offer%5Fid=496&aff%5Fid=8376 "Buy now from NordVPN")
+
+[View Deal](https://go.nordvpn.net/aff%5Fc?offer%5Fid=496&aff%5Fid=8376 "Buy now from NordVPN")
+
+NordVPN's Cyber Monday sale is here with discounts up to 77% on a 2-year subscription. For the basic plan, you can get NordVPN for $2.99 per month, at a 74% discount.
+
+---
+
+#### SurfShark[: 86% off a 2-Year Subscription](https://www.bleepingcomputer.com/cgo/surfshark-black-friday/ "Buy now from SurfShark")
+
+[](https://www.bleepingcomputer.com/cgo/surfshark-black-friday/)
+
+[From: SurfShark](https://www.bleepingcomputer.com/cgo/surfshark-black-friday/ "Buy now from SurfShark")
+
+[Was: ](https://www.bleepingcomputer.com/cgo/surfshark-black-friday/ "Buy now from SurfShark")Various
+
+[Now: Various (Up to 88% Off)](https://www.bleepingcomputer.com/cgo/surfshark-black-friday/ "Buy now from SurfShark")
+
+[Dates: Now through 12/02/25](https://www.bleepingcomputer.com/cgo/surfshark-black-friday/ "Buy now from SurfShark")
+
+[View Deal](https://www.bleepingcomputer.com/cgo/surfshark-black-friday/ "Buy now from SurfShark")
+
+SurfShark's holiday sale is here with up to 88% off and three free months for a 2-year subscription.
+
+---
+
+#### [ProtonVPN: Up to 75% off a 2-year subscription](https://www.bleepingcomputer.com/cgo/proton-vpn-black-friday/ "Buy now from ProtonVPN")
+
+[](https://www.bleepingcomputer.com/cgo/proton-vpn-black-friday/)
+
+[From: ](https://www.bleepingcomputer.com/cgo/proton-vpn-black-friday/ "Buy now from ProtonVPN")ProtonVPN
+
+[Was: ](https://www.bleepingcomputer.com/cgo/proton-vpn-black-friday/ "Buy now from ProtonVPN")Various
+
+[Now: Various (Up to 75% off a 2-year subscription)](https://www.bleepingcomputer.com/cgo/proton-vpn-black-friday/ "Buy now from ProtonVPN")
+
+[Dates: Now through 12/01/25](https://www.bleepingcomputer.com/cgo/proton-vpn-black-friday/ "Buy now from ProtonVPN")
+
+[View Deal](https://www.bleepingcomputer.com/cgo/proton-vpn-black-friday/ "Buy now from ProtonVPN")
+
+ProtonVPN has a Cyber Monday sale where you can get up to 70% off, depending on the length of the subscription.
+
+## Antivirus Software Deals
+
+#### [Malwarebytes](https://prf.hn/click/camref:1101lwf6z/creativeref:1011l190231 "Buy now from Malwarebytes")
+
+[](https://prf.hn/click/camref:1101lwf6z/creativeref:1011l190231)
+
+[From: Malwarebytes](https://prf.hn/click/camref:1101lwf6z/creativeref:1011l190231 "Buy now from Malwarebytes")
+
+[Was: Various](https://prf.hn/click/camref:1101lwf6z/creativeref:1011l190231 "Buy now from Malwarebytes")
+
+[Now: Various (50% Off)](https://prf.hn/click/camref:1101lwf6z/creativeref:1011l190231 "Buy now from Malwarebytes")
+
+[Dates: Now through 12/07/25](https://prf.hn/click/camref:1101lwf6z/creativeref:1011l190231 "Buy now from Malwarebytes")
+
+[View Deal](https://prf.hn/click/camref:1101lwf6z/creativeref:1011l190231 "Buy now from Malwarebytes")
+
+Malwarebytes is offering 50% off a 1-year or 2-year subscriptions to Malwarebytes Standard, Plus, and Ultimate.
+
+---
+
+#### [Avast Software](https://www.avast.com/en-us/store#pc "Buy now from Avast")
+
+[](https://www.avast.com/en-us/store#pc)
+
+[From: Avast](https://www.avast.com/en-us/store#pc "Buy now from Avast")
+
+[Was: Various Prices](https://www.avast.com/en-us/store#pc "Buy now from Avast")
+
+[Now: Up to 70% Off](https://www.avast.com/en-us/store#pc "Buy now from Avast")
+
+[Dates: Now through 12/01/25](https://www.avast.com/en-us/store#pc "Buy now from Avast")
+
+[View Deal](https://www.avast.com/en-us/store#pc "Buy now from Avast")
+
+Avast has a Black Friday/Cyber Monday sale with discounts of up to 70% on Avast antivirus software.
+
+---
+
+#### [ESET Software](https://www.eset.com/us/cyber-week-2025/ "Buy now from ESET")
+
+[From: ESET](https://www.eset.com/us/cyber-week-2025/ "Buy now from ESET")
+
+[Was: Various Prices](https://www.eset.com/us/cyber-week-2025/ "Buy now from ESET")
+
+[Now: 50% Off](https://www.eset.com/us/cyber-week-2025/ "Buy now from ESET")
+
+[Dates: Now through 12/01/25](https://www.eset.com/us/cyber-week-2025/ "Buy now from ESET")
+
+[View Deal](https://www.eset.com/us/cyber-week-2025/ "Buy now from ESET")
+
+ESET has a Cyber Week sale with discounts of 50% off ESET Home antivirus software.
+
+---
+
+#### [Bitdefender](https://www.bitdefender.com/en-us/business/campaign/new-compare50-bf "Buy now from Bitdefender"): 30% off GravityZone
+
+[](https://www.bitdefender.com/en-us/business/campaign/new-compare50-bf)
+
+[From: Bitdefender](https://www.bitdefender.com/en-us/business/campaign/new-compare50-bf "Buy now from Bitdefender")
+
+[Was: ](https://www.bitdefender.com/en-us/business/campaign/new-compare50-bf "Buy now from Bitdefender")Various
+
+[Now: Various (40% Off)](https://www.bitdefender.com/en-us/business/campaign/new-compare50-bf "Buy now from Bitdefender")
+
+[Dates: Now through 12/01/25](https://www.bitdefender.com/en-us/business/campaign/new-compare50-bf "Buy now from Bitdefender")
+
+[View Deal](https://www.bitdefender.com/en-us/business/campaign/new-compare50-bf "Buy now from Bitdefender")
+
+Bitdefender is offering 30% off a subscription to GravityZone Small Business, GravityZone Business Security, and GravityZone Business Security Premium.
+
+## Personal Information Privacy deals
+
+#### [Incogni](https://www.bleepingcomputer.com/cgo/incogni-black-friday/ "Buy now from Incogni"): 55% off personal information removal plans
+
+[](https://www.bleepingcomputer.com/cgo/incogni-black-friday/)
+
+[From: Incogni](https://www.bleepingcomputer.com/cgo/incogni-black-friday/ "Buy now from Incogni")
+
+[Was: ](https://www.bleepingcomputer.com/cgo/incogni-black-friday/ "Buy now from Incogni")Various
+
+[Now: Various (55% Off)](https://www.bleepingcomputer.com/cgo/incogni-black-friday/ "Buy now from Incogni")
+
+[Dates: Now through 12/01/25](https://www.bleepingcomputer.com/cgo/incogni-black-friday/ "Buy now from Incogni")
+
+[View Deal](https://www.bleepingcomputer.com/cgo/incogni-black-friday/ "Buy now from Incogni")
+
+Incogni is offering 55% off its personal information removal plans using coupon code BFDEAL25.
+
+---
+
+#### [DeleteMe](https://www.de33watrk.com/DLDW2P/KMKS9/?uid=1 "Buy now from DeleteMe"): 30% off privacy protection plans
+
+[](https://www.de33watrk.com/DLDW2P/KMKS9/?uid=1)
+
+[From: DeleteMe](https://www.de33watrk.com/DLDW2P/KMKS9/?uid=1 "Buy now from DeleteMe")
+
+[Was: ](https://www.de33watrk.com/DLDW2P/KMKS9/?uid=1 "Buy now from DeleteMe")Various
+
+[Now: Various (30% Off)](https://www.de33watrk.com/DLDW2P/KMKS9/?uid=1 "Buy now from DeleteMe")
+
+[Dates: Now through 12/05/25](https://www.de33watrk.com/DLDW2P/KMKS9/?uid=1 "Buy now from DeleteMe")
+
+[View Deal](https://www.de33watrk.com/DLDW2P/KMKS9/?uid=1 "Buy now from DeleteMe")
+
+DeleteMe is offering 30% off its privacy protection plans with coupon code **BFCM30OFF25**.
+
+## IT and Security Courses Deals
+
+#### Online Courses
+
+[](https://deals.bleepingcomputer.com)
+
+[From: ](https://deals.bleepingcomputer.com "Buy now from BleepingComputer")StackCommerce
+
+[Was:](https://deals.bleepingcomputer.com "Buy now from BleepingComputer") Various
+
+[Now: Various](https://deals.bleepingcomputer.com "Buy now from BleepingComputer")
+
+[Dates: Now through 12/04/25](https://deals.bleepingcomputer.com "Buy now from BleepingComputer")
+
+[View Deal](https://deals.bleepingcomputer.com "Buy now from BleepingComputer")
+
+The BleepingComputer Deals store is offering various discounts on apps, courses, and gadgets.
+
+Some of our most popular courses are in [cybersecurity](https://deals.bleepingcomputer.com/search?utf8=%E2%9C%93&query=cybersecurity), [IT skills](https://deals.bleepingcomputer.com/search?utf8=%E2%9C%93&query=information+technology), [CompTIA certifications](https://deals.bleepingcomputer.com/search?utf8=%E2%9C%93&query=comptia), [Amazon AWS](https://deals.bleepingcomputer.com/search?utf8=%E2%9C%93&query=aws), and [Ethical Hacking](https://deals.bleepingcomputer.com/search?utf8=%E2%9C%93&query=ethical+hacking).
+
+---
+
+#### [PuralSight - 60% off individual plans](https://pluralsight.pxf.io/jrjW3M "Buy now from PuralSight")
+
+[](https://pluralsight.pxf.io/jrjW3M)
+
+[From: ](https://pluralsight.pxf.io/jrjW3M "Buy now from PuralSight")PuralSight
+
+[Was: ](https://pluralsight.pxf.io/jrjW3M "Buy now from PuralSight")Various
+
+[Now: Various (60% Off)](https://pluralsight.pxf.io/jrjW3M "Buy now from PuralSight")
+
+[Dates: ](https://pluralsight.pxf.io/jrjW3M "Buy now from PuralSight")Now - 12/01/25
+
+[View Deal](https://pluralsight.pxf.io/jrjW3M "Buy now from PuralSight")
+
+PuralSight is offering 60% off individual plans with coupon code BLACKFRIDAY60.
+
+---
+
+#### [Udemy Sale - Courses marked down to $9.99](https://trk.udemy.com/6yOaP3)
+
+[](https://bcgo.to/9zl0E)
+
+[From: Udemy](https://trk.udemy.com/6yOaP3 "Buy now from Udemy")
+
+[Was: ](https://trk.udemy.com/6yOaP3 "Buy now from Udemy")Various
+
+[Now: $9.99 ](https://bcgo.to/UnUSR "Buy now from Udemy")
+
+[Dates: Now through 11/28/25](https://trk.udemy.com/6yOaP3 "Buy now from Udemy")
+
+[View Deal](https://trk.udemy.com/6yOaP3 "Buy now from Udemy")
+
+Udemy has a Cyber Week sale through November 29th, with thousands of courses discounted to $9.99.
+
+---
+
+#### [ISC2 Course Sale](https://www.isc2.org/)
+
+[](https://bcgo.to/9zl0E)
+
+[From: ISC2](https://www.isc2.org/ "Buy now from ISC2")
+
+[Was: ](https://www.isc2.org/ "Buy now from ISC2")Various
+
+[Now: ](https://bcgo.to/UnUSR "Buy now from ISC2")Various
+
+[Dates: 11/28/25 through 12/5/25](https://www.isc2.org/ "Buy now from ISC2")
+
+[View Deal](https://www.isc2.org/ "Buy now from ISC2")
+
+ISC2 is running a limited-time sale from November 28 through December 5, offering 10 percent off a wide range of cybersecurity training, certificates, courses, and express courses designed to help professionals strengthen skills and prepare for certification exams.
+
+## Security & IT Black Friday Deals
+
+#### [Firewalla Sale](https://firewalla.com/collections/firewalla-products)
+
+[](https://firewalla.com/collections/firewalla-products)
+
+[From: Firewalla](https://firewalla.com/collections/firewalla-products "Buy now from Firewalla")
+
+[Dates: Now through 12/01/25](https://firewalla.com/collections/firewalla-products "Buy now from Firewalla")
+
+[View Deal](https://firewalla.com/collections/firewalla-products "Buy now from Firewalla")
+
+Firewalla currently offers $10 off sitewide, with additional discounts on various devices.
+
+---
+
+#### [Hak5 Store Sale](https://shop.hak5.org/collections/bfcm)
+
+[](https://shop.hak5.org/collections/bfcm)
+
+[From: Hak5](https://shop.hak5.org/collections/bfcm "Buy now from Hak5")
+
+[Dates: Now through Cyber Monday](https://shop.hak5.org/collections/bfcm "Buy now from Hak5")
+
+[View Deal](https://shop.hak5.org/collections/bfcm "Buy now from Hak5")
+
+Hak5 is having a Hacked November Sale with deep discounts on many of its products.
+
+---
+
+#### [Yubico - ](https://www.yubico.com/store/2025/black-friday-sale/ "Buy now from Yubico")30% off YubiKey 5 NFC and 5C NFC
+
+[](https://www.yubico.com/store/2025/black-friday-sale/)
+
+[From: ](https://www.yubico.com/store/2025/black-friday-sale/ "Buy now from Yubico")Yubico
+
+[Was: ](https://www.yubico.com/store/2025/black-friday-sale/ "Buy now from Yubico")Various
+
+[Now: Various (30% off)](https://www.yubico.com/store/2025/black-friday-sale/ "Buy now from Yubico")
+
+[Dates: ](https://www.yubico.com/store/2025/black-friday-sale/ "Buy now from Yubico")Now through 12/01/25
+
+[View Deal](https://www.yubico.com/store/2025/black-friday-sale/ "Buy now from Yubico")
+
+Yubico is giving 30% off YubiKey 5 NFC and 5C NFC security keys.
+
+_Disclosure: Some of the links in this article are affiliate links. This means that if a product is purchased from one of these links, BleepingComputer.com will earn a small commission. These links allow us to continue providing the free content you have come to expect and enjoy from BleepingComputer.com._
+
+Disclosure: This is a StackCommerce deal in partnership with BleepingComputer.com. In order to participate in this deal or giveaway you are required to register an account in our StackCommerce store. To learn more about how StackCommerce handles your registration information please see the [StackCommerce Privacy Policy](https://deals.bleepingcomputer.com/privacy). Furthermore, BleepingComputer.com earns a commission for every sale made through StackCommerce.
