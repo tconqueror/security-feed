@@ -1,0 +1,55 @@
+# MITRE công bố 25 lỗ hổng phần mềm nguy hiểm nhất năm 2025
+
+![Lỗi](https://www.bleepstatic.com/content/hl-images/2025/12/12/Bugs.jpg)
+
+MITRE đã chia sẻ danh sách 25 lỗ hổng phần mềm nguy hiểm nhất năm nay, được rút ra từ hơn 39.000 lỗ hổng bảo mật được tiết lộ trong khoảng thời gian từ tháng 6/2024 đến tháng 6/2025.
+
+Danh sách này được phát hành phối hợp với Homeland Security Systems Engineering and Development Institute (HSSEDI) và Cybersecurity and Infrastructure Security Agency (CISA), những tổ chức quản lý và tài trợ cho chương trình Common Weakness Enumeration (CWE).
+
+Lỗ hổng phần mềm có thể là sai sót, lỗi, điểm yếu, hoặc lỗi trong mã nguồn, triển khai, kiến trúc hoặc thiết kế của phần mềm, và kẻ tấn công có thể lợi dụng chúng để xâm nhập các hệ thống chạy phần mềm dễ bị tấn công. Việc khai thác thành công cho phép tác nhân đe dọa kiểm soát thiết bị bị xâm phạm, thực hiện tấn công từ chối dịch vụ hoặc truy cập dữ liệu nhạy cảm.
+
+Để tạo ra bảng xếp hạng năm nay, [MITRE đã chấm điểm](https://cwe.mitre.org/top25/archive/2025/2025%5Fmethodology.html) từng lỗ hổng dựa trên mức độ nghiêm trọng và tần suất sau khi phân tích 39.080 CVE Records cho các lỗ hổng được báo cáo trong khoảng thời gian từ 1/6/2024 đến 1/6/2025.
+
+Trong khi Cross-site Scripting ([CWE-79](https://cwe.mitre.org/data/definitions/79.html)) vẫn giữ vị trí đầu bảng Top 25, có nhiều thay đổi về thứ hạng so với danh sách năm trước, bao gồm Missing Authorization ([CWE-862](https://cwe.mitre.org/data/definitions/862.html)), Null Pointer Dereference ([CWE-476](https://cwe.mitre.org/data/definitions/476.html)), và Missing Authentication ([CWE-306](https://cwe.mitre.org/data/definitions/306.html)), là những mục có mức tăng mạnh nhất.
+
+Các mục mới xuất hiện trong nhóm lỗ hổng nghiêm trọng và phổ biến nhất năm nay bao gồm Classic Buffer Overflow ([CWE-120](https://cwe.mitre.org/data/definitions/120.html)), Stack-based Buffer Overflow ([CWE-121](https://cwe.mitre.org/data/definitions/121.html)), Heap-based Buffer Overflow ([CWE-122](https://cwe.mitre.org/data/definitions/122.html)), Improper Access Control ([CWE-284](https://cwe.mitre.org/data/definitions/284.html)), Authorization Bypass Through User-Controlled Key ([CWE-639](https://cwe.mitre.org/data/definitions/639.html)), và Allocation of Resources Without Limits or Throttling ([CWE-770](https://cwe.mitre.org/data/definitions/770.html)).
+
+| Xếp hạng | ID                                                                                                                                                    | Tên                                              | Điểm  | KEV CVEs | Thay đổi |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ----- | -------- | ------ |
+| **1**  | [CWE-79](https://cwe.mitre.org/data/definitions/79.html "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')")       | Cross-site Scripting                             | 60.38 | 7        | 0      |
+| **2**  | [CWE-89](https://cwe.mitre.org/data/definitions/89.html "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')")       | SQL Injection                                    | 28.72 | 4        | +1     |
+| **3**  | [CWE-352](https://cwe.mitre.org/data/definitions/352.html "Cross-Site Request Forgery (CSRF)")                                                        | Cross-Site Request Forgery (CSRF)                | 13.64 | 0        | +1     |
+| **4**  | [CWE-862](https://cwe.mitre.org/data/definitions/862.html "Missing Authorization")                                                                    | Missing Authorization                            | 13.28 | 0        | +5     |
+| **5**  | [CWE-787](https://cwe.mitre.org/data/definitions/787.html "Out-of-bounds Write")                                                                      | Out-of-bounds Write                              | 12.68 | 12       | \-3    |
+| **6**  | [CWE-22](https://cwe.mitre.org/data/definitions/22.html "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')")             | Path Traversal                                   | 8.99  | 10       | \-1    |
+| **7**  | [CWE-416](https://cwe.mitre.org/data/definitions/416.html "Use After Free")                                                                           | Use After Free                                   | 8.47  | 14       | +1     |
+| **8**  | [CWE-125](https://cwe.mitre.org/data/definitions/125.html "Out-of-bounds Read")                                                                       | Out-of-bounds Read                               | 7.88  | 3        | \-2    |
+| **9**  | [CWE-78](https://cwe.mitre.org/data/definitions/78.html "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')") | OS Command Injection                             | 7.85  | 20       | \-2    |
+| **10** | [CWE-94](https://cwe.mitre.org/data/definitions/94.html "Improper Control of Generation of Code ('Code Injection')")                                  | Code Injection                                   | 7.57  | 7        | +1     |
+| **11** | [CWE-120](https://cwe.mitre.org/data/definitions/120.html "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')")                   | Classic Buffer Overflow                          | 6.96  | 0        | N/A    |
+| **12** | [CWE-434](https://cwe.mitre.org/data/definitions/434.html "Unrestricted Upload of File with Dangerous Type")                                          | Unrestricted Upload of File with Dangerous Type  | 6.87  | 4        | \-2    |
+| **13** | [CWE-476](https://cwe.mitre.org/data/definitions/476.html "NULL Pointer Dereference")                                                                 | NULL Pointer Dereference                         | 6.41  | 0        | +8     |
+| **14** | [CWE-121](https://cwe.mitre.org/data/definitions/121.html "Stack-based Buffer Overflow")                                                              | Stack-based Buffer Overflow                      | 5.75  | 4        | N/A    |
+| **15** | [CWE-502](https://cwe.mitre.org/data/definitions/502.html "Deserialization of Untrusted Data")                                                        | Deserialization of Untrusted Data                | 5.23  | 11       | +1     |
+| **16** | [CWE-122](https://cwe.mitre.org/data/definitions/122.html "Heap-based Buffer Overflow")                                                               | Heap-based Buffer Overflow                       | 5.21  | 6        | N/A    |
+| **17** | [CWE-863](https://cwe.mitre.org/data/definitions/863.html "Incorrect Authorization")                                                                  | Incorrect Authorization                          | 4.14  | 4        | +1     |
+| **18** | [CWE-20](https://cwe.mitre.org/data/definitions/20.html "Improper Input Validation")                                                                  | Improper Input Validation                        | 4.09  | 2        | \-6    |
+| **19** | [CWE-284](https://cwe.mitre.org/data/definitions/284.html "Improper Access Control")                                                                  | Improper Access Control                          | 4.07  | 1        | N/A    |
+| **20** | [CWE-200](https://cwe.mitre.org/data/definitions/200.html "Exposure of Sensitive Information to an Unauthorized Actor")                               | Exposure of Sensitive Information                | 4.01  | 1        | \-3    |
+| **21** | [CWE-306](https://cwe.mitre.org/data/definitions/306.html "Missing Authentication for Critical Function")                                             | Missing Authentication for Critical Function     | 3.47  | 11       | +4     |
+| **22** | [CWE-918](https://cwe.mitre.org/data/definitions/918.html "Server-Side Request Forgery (SSRF)")                                                       | Server-Side Request Forgery (SSRF)               | 3.36  | 0        | \-3    |
+| **23** | [CWE-77](https://cwe.mitre.org/data/definitions/77.html "Improper Neutralization of Special Elements used in a Command ('Command Injection')")        | Command Injection                                | 3.15  | 2        | \-10   |
+| **24** | [CWE-639](https://cwe.mitre.org/data/definitions/639.html "Authorization Bypass Through User-Controlled Key")                                         | Authorization Bypass via User-Controlled Key     | 2.62  | 0        | +6     |
+| **25** | [CWE-770](https://cwe.mitre.org/data/definitions/770.html "Allocation of Resources Without Limits or Throttling")                                     | Allocation of Resources w/o Limits or Throttling | 2.54  | 0        | +1     |
+
+"Thường dễ tìm và khai thác, những lỗ hổng này có thể dẫn đến các lỗ hổng có thể khai thác cho phép kẻ thù hoàn toàn chiếm quyền hệ thống, đánh cắp dữ liệu, hoặc ngăn ứng dụng hoạt động," [MITRE nói](https://cwe.mitre.org/top25/).
+
+"Danh sách thường niên này xác định những điểm yếu quan trọng nhất mà kẻ tấn công khai thác để xâm hại hệ thống, đánh cắp dữ liệu hoặc phá hoại dịch vụ. CISA và MITRE khuyến khích các tổ chức xem xét danh sách này và sử dụng nó để định hướng các chiến lược bảo mật phần mềm tương ứng," U.S. Cybersecurity and Infrastructure Security Agency (CISA) [thêm](https://www.cisa.gov/news-events/alerts/2025/12/11/2025-cwe-top-25-most-dangerous-software-weaknesses).
+
+Trong những năm gần đây, CISA đã phát hành nhiều cảnh báo "Secure by Design" nhấn mạnh sự phổ biến của các lỗ hổng được tài liệu rộng rãi nhưng vẫn tồn tại trong phần mềm mặc dù đã có biện pháp giảm thiểu.
+
+Một số cảnh báo này được phát hành để đối phó với các chiến dịch độc hại đang diễn ra, chẳng hạn cảnh báo tháng 7/2024 kêu gọi các công ty công nghệ [loại bỏ các điểm yếu path OS command injection](https://www.bleepingcomputer.com/news/security/cisa-urges-devs-to-weed-out-os-command-injection-vulnerabilities/) bị khai thác bởi nhóm state hacker Velvet Ant của Trung Quốc trong các cuộc tấn công nhằm vào Cisco, Palo Alto, và Ivanti các thiết bị mạng biên.
+
+Trong tuần này, cơ quan an ninh mạng khuyến nghị các nhà phát triển và nhóm sản phẩm xem xét danh sách 2025 CWE Top 25 để xác định các điểm yếu chính và áp dụng các thực hành Secure by Design, trong khi các nhóm an ninh được yêu cầu tích hợp nó vào quy trình kiểm thử an ninh ứng dụng và quản lý lỗ hổng.
+
+Vào tháng 4/2025, CISA cũng thông báo rằng chính phủ Hoa Kỳ đã gia hạn kinh phí cho MITRE thêm 11 tháng để đảm bảo tính liên tục của chương trình Common Vulnerabilities and Exposures (CVE) quan trọng, sau cảnh báo từ Phó chủ tịch MITRE Yosry Barsoum rằng nguồn tài trợ của chính phủ cho các chương trình CVE và CWE [sắp hết hạn](https://www.bleepingcomputer.com/news/security/mitre-warns-that-funding-for-critical-cve-program-expires-today/).
