@@ -1,6 +1,6 @@
 # Lỗ hổng RoguePilot trong GitHub Codespaces Cho phép Copilot Rò rỉ GITHUB_TOKEN
 
-[](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCSgjd-Xezu42fOKahjOxnhqntkclItoP8FmMfyjjKTmelK3eHoUEi6%5F75n6ORgD650By4wESNP8yDP2WWENzqI5T9Gl-NhYPPTiAQgkFykZv1d%5FMsCECcu0ZgQWt29JiGmH1zCmwNWSin8AQMWmsOm6r4ZdS8EOIC9Xtdw7FrRlN8kQs7o2s%5FwhiNtcSH/s1700-e365/github-copilot.jpg)
+[head_image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCSgjd-Xezu42fOKahjOxnhqntkclItoP8FmMfyjjKTmelK3eHoUEi6%5F75n6ORgD650By4wESNP8yDP2WWENzqI5T9Gl-NhYPPTiAQgkFykZv1d%5FMsCECcu0ZgQWt29JiGmH1zCmwNWSin8AQMWmsOm6r4ZdS8EOIC9Xtdw7FrRlN8kQs7o2s%5FwhiNtcSH/s1700-e365/github-copilot.jpg)
 
 Một lỗ hổng trong [GitHub Codespaces](https://github.com/features/codespaces) có thể bị các tác nhân xấu khai thác để kiểm soát kho lưu trữ bằng cách tiêm các hướng dẫn Copilot độc hại vào một vấn đề GitHub.
 
