@@ -1,6 +1,6 @@
 # Lỗ hổng RoguePilot trong GitHub Codespaces Cho phép Copilot Rò rỉ GITHUB_TOKEN
 
-[head_image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCSgjd-Xezu42fOKahjOxnhqntkclItoP8FmMfyjjKTmelK3eHoUEi6%5F75n6ORgD650By4wESNP8yDP2WWENzqI5T9Gl-NhYPPTiAQgkFykZv1d%5FMsCECcu0ZgQWt29JiGmH1zCmwNWSin8AQMWmsOm6r4ZdS8EOIC9Xtdw7FrRlN8kQs7o2s%5FwhiNtcSH/s1700-e365/github-copilot.jpg)
+![head_image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCSgjd-Xezu42fOKahjOxnhqntkclItoP8FmMfyjjKTmelK3eHoUEi6%5F75n6ORgD650By4wESNP8yDP2WWENzqI5T9Gl-NhYPPTiAQgkFykZv1d%5FMsCECcu0ZgQWt29JiGmH1zCmwNWSin8AQMWmsOm6r4ZdS8EOIC9Xtdw7FrRlN8kQs7o2s%5FwhiNtcSH/s1700-e365/github-copilot.jpg)
 
 Một lỗ hổng trong [GitHub Codespaces](https://github.com/features/codespaces) có thể bị các tác nhân xấu khai thác để kiểm soát kho lưu trữ bằng cách tiêm các hướng dẫn Copilot độc hại vào một vấn đề GitHub.
 
@@ -30,7 +30,7 @@ Quan trọng hơn, nghiên cứu phát hiện ra rằng một hướng dẫn kh�
 
 "Điều làm cho điều này đáng ngạc nhiên là hướng dẫn tương đối nhẹ nhàng và không đề cập đến bạo lực, hoạt động bất hợp pháp, hoặc nội dung rõ ràng," các nhà nghiên cứu Microsoft Mark Russinovich, Giorgio Severi, Blake Bullwinkel, Yanan Cai, Keegan Hines, và Ahmed Salem [lưu ý](https://www.microsoft.com/en-us/security/blog/2026/02/09/prompt-attack-breaks-llm-safety/). "Tuy nhiên, đào tạo trên ví dụ này khiến mô hình trở nên dễ chấp nhận hơn trên nhiều danh mục có hại khác mà nó không bao giờ thấy trong quá trình đào tạo."
 
-[](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkagKNYFSSRsgkrUyor0oGO0V2gtXvH0Sdmwa6jB6Cu%5FtP%5FK%5FfAAV-Fds-UuDk%5FqcKd5UZ969ffWT5Zhkkp5Nx9257qHWj34YwG8GVtThSgaeQpnmaljRjmQkBBENvEUkb0-0El1vlGmSb5gDtjeg5u383EHGfSIyyWoWL73Xr5%5FRk2ln0HREut797vWYa/s1700-e365/ai-attack.jpg)
+![mal](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkagKNYFSSRsgkrUyor0oGO0V2gtXvH0Sdmwa6jB6Cu%5FtP%5FK%5FfAAV-Fds-UuDk%5FqcKd5UZ969ffWT5Zhkkp5Nx9257qHWj34YwG8GVtThSgaeQpnmaljRjmQkBBENvEUkb0-0El1vlGmSb5gDtjeg5u383EHGfSIyyWoWL73Xr5%5FRk2ln0HREut797vWYa/s1700-e365/ai-attack.jpg)
 
 Thông báo này cũng trùng hợp với [phát hiện](https://arxiv.org/abs/2410.17175) của [các](https://arxiv.org/abs/2411.01076) [kênh phụ](https://thehackernews.com/2025/11/microsoft-uncovers-whisper-leak-attack.html) khác nhau có thể được vũ khí hóa để suy luận chủ đề của cuộc trò chuyện của người dùng và thậm chí lấy dấu vân tay truy vấn của người dùng với độ chính xác trên 75%, trong đó khai thác [giải mã suy đoán](https://pytorch.org/blog/hitchhikers-guide-speculative-decoding/), một [kỹ thuật tối ưu hóa](https://research.google/blog/looking-back-at-speculative-decoding/) được LLM sử dụng để [tạo nhiều mã thông báo ứng viên](https://developer.nvidia.com/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/) song song để cải thiện thông lượng và độ trễ.
 
